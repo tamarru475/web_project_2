@@ -3,7 +3,7 @@
   background-image: url(/images/background_header.svg);
   background-repeat: no-repeat;
   background-position: center;
-  size: cover;
+  background-size: cover;
   z-index: 1;
 }
 
@@ -15,9 +15,9 @@
 }
 
 .logo {
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-bottom: 80px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 80px;
   z-index: 3;
 }
 
