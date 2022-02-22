@@ -1,0 +1,12 @@
+.menu {
+  background-color: #0a2750;
+  background-image: url(/images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  size: cover;
+  color: #ffffff;
+}
+
+.menu__title {
+  display: inline-block;
+}

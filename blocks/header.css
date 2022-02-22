@@ -1,0 +1,122 @@
+.header {
+  background-color: #ffffff;
+  background-image: url(/images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  size: cover;
+  z-index: 1;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 80px;
+  z-index: 3;
+}
+
+.nav-links {
+  padding-top: 30px;
+  padding-right: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+  z-index: 3;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+}
+.nav__link:hover {
+  color: #2f80ed;
+}
+
+.header__title {
+  margin: 0;
+  position: relative;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  z-index: 3;
+  max-width: 100%;
+  white-space: pre;
+}
+
+.header__span-accent {
+  position: relative;
+  color: #2f80ed;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  z-index: 3;
+}
+
+.header__description {
+  margin: 0;
+  position: relative;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  white-space: pre;
+  z-index: 3;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  z-index: 2;
+}
+
+.header__paragraph {
+  color: #838383;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 80px;
+  padding-bottom: 40px;
+  display: block;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.list__item {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  z-index: 3;
+}
+
+.header__paragraph-address {
+  color: #838383;
+  display: flex;
+  align-self: flex-end;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  z-index: 3;
+}
