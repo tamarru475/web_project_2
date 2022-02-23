@@ -47,8 +47,9 @@
 }
 
 .header__main-text {
-  display: inline-block;
+  display: block;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
 .header__title {
@@ -105,6 +106,9 @@
 
 .header__list-item {
   list-style-type: none;
+  display: block;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .list__item {
