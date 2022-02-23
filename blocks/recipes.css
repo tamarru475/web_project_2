@@ -32,26 +32,32 @@
   line-height: 30px;
 }
 
-.recipes__video {
+.recipes__videos {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  gap: 40px;
   padding-bottom: 215px;
 }
 
-.recipes__videos {
+.recipes__video {
   padding-top: 80px;
   width: 480px;
   height: 274px;
 }
 
 .recipes__iframe {
-  margin-left: 40px;
   margin-bottom: 24px;
+}
+
+.recipes__video-captions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .recipes__video-caption {
   display: inline-flex;
-  justify-content: space-between;
   align-items: flex-start;
   font-family: "Inter";
   font-style: normal;

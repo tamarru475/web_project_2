@@ -46,6 +46,11 @@
   color: #2f80ed;
 }
 
+.header__main-text {
+  display: inline-block;
+  flex-direction: column;
+}
+
 .header__title {
   margin: 0;
   position: relative;
@@ -55,12 +60,10 @@
   font-size: 60px;
   line-height: 72px;
   z-index: 3;
-  max-width: 100%;
   white-space: pre;
 }
 
 .header__span-accent {
-  position: relative;
   color: #2f80ed;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
@@ -71,8 +74,6 @@
 }
 
 .header__description {
-  margin: 0;
-  position: relative;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -100,22 +101,21 @@
   line-height: 20px;
   padding-left: 80px;
   padding-bottom: 40px;
-  display: block;
-  flex-direction: column;
-  justify-content: flex-end;
+}
+
+.header__list-item {
+  list-style-type: none;
 }
 
 .list__item {
-  list-style-type: none;
-  display: flex;
-  align-items: flex-start;
   z-index: 3;
 }
 
 .header__paragraph-address {
-  color: #838383;
   display: flex;
-  align-self: flex-end;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: #838383;
   padding-right: 80px;
   padding-bottom: 40px;
   z-index: 3;

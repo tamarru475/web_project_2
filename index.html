@@ -43,107 +43,144 @@
               <a class="nav__link" href="#recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link" href="#reservation">Book a table</a>
+              <a class="nav__link" href="#resrvation">Book a table</a>
             </li>
             <li>
               <a class="nav__link" href="#contacts">Contacts</a>
             </li>
           </ul>
         </nav>
-        <h1 class="header__title">
-          <span class="header__span-accent">Specialty coffee</span>
-          in the Practicum Library
-        </h1>
-        <p class="header__description">
-          Welcome to our study zone! We've got the coffee to energize you and
-          the cozy vibes to help you get creative.
-        </p>
-
+        <div class="header__main-text">
+          <h1 class="header__title">
+            <span class="header__span-accent">Specialty coffee</span>
+            in the Practicum Library
+          </h1>
+          <p class="header__description">
+            Welcome to our study zone! We've got the coffee to energize you and
+            the cozy vibes to help you get creative.
+          </p>
+        </div>
         <img
           src="./images/inside_coffee_shop.png"
           alt="Illustration 'inside the coffeeshop'"
           class="header__image"
         />
         <div class="header__paragraph">
-          <ul>
-            <li class="list__item"><a> Hours: </a></li>
-            <li class="list__item"><a>Monday - Friday (10:00 - 19:00)</a></li>
-            <li class="list__item"><a>Saturday Sunday (11:00 - 18:00)</a></li>
-            <li class="header__paragraph-address list__item">
+          <ul class="header__list">
+            <li class="header__list-item"><a> Hours: </a></li>
+            <li class="header__list-item">
+              <a>Monday - Friday (10:00 - 19:00)</a>
+            </li>
+            <li class="header__list-item">
+              <a>Saturday Sunday (11:00 - 18:00)</a>
+            </li>
+            <li class="header__paragraph-address header__list-item">
               <a>200 Success Avenue, The Town of Practicum</a>
             </li>
           </ul>
         </div>
       </header>
       <section class="menu">
-        <h2 class="menu__title" id="menu">Menu</h2>
-        <p class="menu__subtitle">
-          We brew coffee from locally roasted, Fairtrade certified beans and use
-          biodegradable cups. All teas from our collection are $2/cup.
-        </p>
-        <div class="menu__cards">
-          <div class="card">
-            <h3 class="card__title">Filter</h3>
-            <ul>
-              <li class="card__list-item">
-                Regular (12 oz)<a class="card__list-divider">_</a>$1
-              </li>
-              <li class="card__list-item">
-                Large (16 oz)<a class="card__list-divider">_</a>$1.25
-              </li>
-              <li class="card__list-item">
-                XL (20 oz)<a class="card__list-divider">_</a> $1.5
-              </li>
-              <li>
-                Party-size (24 oz, decaf)<a class="card__list-divider">_</a>
-                $1.75
-              </li>
-            </ul>
-          </div>
-          <div class="card">
-            <h4 class="card__title">Espresso</h4>
-            <ul>
-              <li class="card__list-item">
-                Macchiato<a class="card__list-divider">_</a> $2.25
-              </li>
-              <li class="ccard__list-item">
-                Cortado<a class="card__list-divider">_</a> $2.5
-              </li>
-              <li class="ccard__list-item">
-                Mocha<a class="card__list-divider">_</a> $3
-              </li>
-              <li class="ccard__list-item">
-                Sunrise in the Bay Area (decaf)<a class="card__list-divider"
-                  >_</a
-                >
-                $10
-              </li>
-            </ul>
-          </div>
-          <div class="card">
-            <h5 class="card__title">Baked Goods</h5>
-            <ul>
-              <li class="card__list-item">
-                Almond Croissant<a class="card__list-divider">_</a> $2
-              </li>
-              <li class="card__list-item">
-                Banana Bread<a class="card__list-divider">_</a> $1.75
-              </li>
-              <li class="card__list-item">
-                Key Lime Pie<a class="card__list-divider">_</a> $3
-              </li>
-              <li class="card__list-item">
-                Blue Velvet Cake
-                <a class="card__list-aider">_</a>
-                $3.75
-              </li>
-              <li class="card__list-item">
-                Web Cookie<a class="card__list-divider">_</a> $2
-              </li>
-              <li class="card__list-item">
-                Fresh Bug'uette<a class="card__list-divider">_</a> $0.25
-              </li>
-            </ul>
+        <div class="menu__content">
+          <h2 class="menu__title" id="menu">Menu</h2>
+          <p class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </p>
+          <div class="menu__cards">
+            <div class="card">
+              <ul class="card__list">
+                <li class="card__list-item">
+                  <h3 class="card__title">Filter</h3>
+                </li>
+                <li class="card__list-item">
+                  <a class="card__list-product">Regular (12 oz)</a>
+                  <div class="card__list-divider"></div>
+                  <a class="card__list-price">$1</a>
+                </li>
+                <li class="card__list-item">
+                  <a class="card__list-product">Large (16 oz)</a>
+                  <div class="card__list-divider"></div>
+                  <a class="card__list-price">$1.25</a>
+                </li>
+                <li class="card__list-item">
+                  <a class="card__list-product">XL (20 oz)</a>
+                  <div class="card__list-divider"></div>
+                  <a class="card__list-price">$1.5</a>
+                </li>
+                <li class="card__list-item">
+                  <a class="card__list-product">Party-size (24 oz, decaf)</a>
+                  <div class="card__list-divider"></div>
+                  <a class="card__list-price">$1.75</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <ul class="card__list">
+                <li class="card__list-item">
+                  <h4 class="card__title">Espresso</h4>
+                </li>
+                <li class="card__list-item">
+                  <a class="card__list-product">Macchiato</a>
+                  <div class="card__list-divider"></div>
+                  <a class="card__list-price">$2.25</a>
+                </li>
+                <li class="card__list-item">
+                  <a class="card__list-product">Cortado</a>
+                  <div class="card__list-divider"></div>
+                  <a class="card__list-price">$2.5</a>
+                </li>
+                <li class="card__list-item">
+                  <a class="card__list-product">Mocha</a>
+                  <div class="card__list-divider"></div>
+                  <a class="card__list-price">$3</a>
+                </li>
+                <li class="card__list-item">
+                  <a class="card__list-product"
+                    >Sunrise in the Bay Area (decaf)</a
+                  >
+                  <div class="card__list-divider"></div>
+                  <a class="card__list-price">$10</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <ul class="card__list">
+                <li class="card__list-item">
+                  <h5 class="card__title">Baked Goods</h5>
+                </li>
+                <li class="card__list-item">
+                  <a class="card__list-product">Almond Croissant</a>
+                  <div class="card__list-divider"></div>
+                  <a class="card__list-price">$2</a>
+                </li>
+                <li class="card__list-item">
+                  <a class="card__list-product">Banana Bread</a>
+                  <div class="card__list-divider"></div>
+                  <a class="card__list-price">$1.75</a>
+                </li>
+                <li class="card__list-item">
+                  <a class="card__list-product">Key Lime Pie</a>
+                  <div class="card__list-divider"></div>
+                  <a class="card__list-price">$3</a>
+                </li>
+                <li class="card__list-item">
+                  <a class="card__list-product">Blue Velvet Cake</a>
+                  <div class="card__list-divider"></div>
+                  <a class="card__list-price">$3.75</a>
+                </li>
+                <li class="card__list-item">
+                  <a class="card__list-product">Web Cookie</a>
+                  <div class="card__list-divider"></div>
+                  <a class="card__list-price">$2</a>
+                </li>
+                <li class="card__list-item">
+                  <a class="card__list-product">Fresh Bug'uette</a>
+                  <div class="card__list-divider"></div>
+                  <a class="card__list-price">$0.25</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -153,26 +190,30 @@
           Check out some recipes we've collected for your home-brewing
           convenience:
         </p>
-        <div class="recipes__video">
-          <div class="recipes__videos">
+        <div class="recipes__videos">
+          <div class="recipes__video">
             <iframe
               class="recipes__iframe"
               width="480"
               height="273"
               src="https://www.youtube.com/embed/j6VlT_jUVPc"
             ></iframe>
-            <div class="recipes__video-caption">Aeropress recipe</div>
-            <div class="recipes__video-caption">~5 min</div>
+            <div class="recipes__video-captions">
+              <div class="recipes__video-caption">Aeropress recipe</div>
+              <div class="recipes__video-caption">~5 min</div>
+            </div>
           </div>
-          <div>
+          <div class="recipes__video">
             <iframe
               class="recipes__iframe"
               width="480"
               height="273"
               src="https://www.youtube.com/embed/st571DYYTR8"
             ></iframe>
-            <div class="recipes__video-caption">French press recipe</div>
-            <div class="recipes__video-caption">~15 min</div>
+            <div class="recipes__video-captions">
+              <div class="recipes__video-caption">French press recipe</div>
+              <div class="recipes__video-caption">~15 min</div>
+            </div>
           </div>
         </div>
       </section>
@@ -253,29 +294,31 @@
             src="/images/logo_practicum.svg"
             alt="Practicum Logo"
           />
-          <ul class="footer__list">
-            <li class="footer__list-item">
-              <h3 class="footer__social-heading">Social media</h3>
-            </li>
-            <li class="footer__list-item">
-              <a class="footer__social-link" href="#">
-                <img
-                  class="footer__social-icon"
-                  src="/images/facebook_white.svg"
-                  alt="Facebook"
-                />Facebook
-              </a>
-            </li>
-            <li class="footer__list-item">
-              <a class="footer__social-link" href="#">
-                <img
-                  class="footer__social-icon"
-                  src="/images/instagram_white.svg"
-                  alt="instagram"
-                />Instagram
-              </a>
-            </li>
-          </ul>
+          <div class="footer__social">
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <h3 class="footer__social-heading">Social media</h3>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="/images/facebook_white.svg"
+                    alt="Facebook"
+                  />Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="/images/instagram_white.svg"
+                    alt="instagram"
+                  />Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <p class="footer__copyright">@ 2022 Tamar Rubin</p>
       </footer>
