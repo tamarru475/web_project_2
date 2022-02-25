@@ -1,21 +1,15 @@
+@import url(./menu__card.css);
 .menu {
-  background-color: #0a2750;
-  background-image: url(/images/background_menu.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: #0a2750 url("/images/background_menu.svg") no-repeat center/cover;
   color: #ffffff;
-}
-
-.menu__content {
-  margin: 0 auto;
+  padding-bottom: 0;
 }
 
 .menu__title {
+  margin: 0;
   text-align: center;
   padding-top: 100px;
-  font-family: "Inter";
-  font-style: normal;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -23,9 +17,10 @@
 
 .menu__subtitle {
   margin: 0 auto;
+  text-align: center;
   max-width: 780px;
   padding-top: 24px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -35,54 +30,9 @@
 .menu__cards {
   width: 100%;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 100px;
   padding-top: 100px;
   padding-bottom: 100px;
-}
-
-.card {
-  width: 600px;
-  display: block;
-  flex-direction: column;
-}
-
-.card__title {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.card__list {
-  list-style-type: none;
-  display: block;
-  gap: 16px;
-}
-
-.card__list-item {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  padding-bottom: 16px;
-  display: flex;
-  flex-direction: row;
-}
-
-.card__list-product {
-  flex-grow: 0;
-}
-
-.card__list-divider {
-  border-bottom: #ffffff 1px solid;
-  flex-grow: 3;
-}
-
-.card__list-price {
-  flex-grow: 0;
 }
