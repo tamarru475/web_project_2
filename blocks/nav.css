@@ -1,4 +1,4 @@
-nav {
+.nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -6,9 +6,10 @@ nav {
 }
 
 .nav__links {
+  margin: 0;
   padding-top: 30px;
   padding-right: 80px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

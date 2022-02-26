@@ -1,15 +1,13 @@
-.form {
-  position: relative;
-  display: block;
-  margin: 0 auto;
-  width: max-content;
-}
 .reservation__form {
   margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .form__fieldset {
-  margin-bottom: 32px;
   border: none;
 }
 
@@ -34,15 +32,9 @@
   width: 358px;
   height: 45px;
   margin-bottom: 32px;
-}
-
-.form__input[type="text"]
-  .form__input[type="text"]
-  .form__input[type="datetime-local"] {
   box-sizing: border-box;
-  padding-bottom: 32px;
   border-radius: 4px;
-  width: 358px;
+  border: 1px #838383 solid;
 }
 
 .form__input::placeholder {
