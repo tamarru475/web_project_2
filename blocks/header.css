@@ -89,6 +89,7 @@
 .header__footer-container {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 40px;
 }
 
 .header__footer-list {
@@ -108,6 +109,7 @@
   flex-direction: column;
   justify-content: flex-end;
   margin: 0;
+  padding: 0;
   color: #838383;
   z-index: 3;
   padding-right: 80px;
